@@ -23,7 +23,6 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	private $_consumerKey;
 	private $_consumerSecret;
-	private $_oauthCallback;
 	private $_twUserTable = 'twitter_user';	
 
 	public function __construct(){
@@ -32,20 +31,19 @@ class SpecialTwitterLogin extends SpecialPage {
 
 		$this->_consumerKey = $wgConsumerKey;
 		$this->_consumerSecret = $wgConsumerSecret;
-		$this->_oauthCallback = 'https://'.$_SERVER['SERVER_NAME'].$wgScriptPath.'/index.php/Special:TwitterLogin/callback';
 	}
 
 	// default method being called by a specialpage
 	public function execute( $parameter ){
 		switch($parameter){
 			case 'redirect':
-			$this->_redirect();
+				$this->_redirect();
 			break;
 			case 'callback':
-			$this->_handleCallback();
+				$this->_handleCallback();
 			break;
 			default:
-			$this->_default();
+				$this->_default();
 			break;			
 		}
 		
@@ -59,7 +57,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		if ( !$wgUser->isLoggedIn() ) {
 			$wgOut->addWikiText( wfMsg( 'twitterlogin-signup') );
 
-			$wgOut->addHTML( '<a href="' . $wgScriptPath . '/index.php/Special:TwitterLogin/redirect">'
+			$wgOut->addHTML( '<a href="' . $this->getTitle( 'redirect' )->getFullURL() .'">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' . 
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
@@ -110,9 +108,11 @@ class SpecialTwitterLogin extends SpecialPage {
 		// Creating OAuth object
 		$connection = new TwitterOAuth( $this->_consumerKey, $this->_consumerSecret );
 
-		// Getting temporary credentials
-		$request_token = $connection->getRequestToken( $this->_oauthCallback );
+		// set callback url
+		$oauthCallback = $this->getTitle( 'callback' )->getFullURL();
 
+		// Getting temporary credentials
+		$request_token = $connection->getRequestToken( $oauthCallback );
 
 		// set returnto url
 		$_SESSION['returnto'] = ( $wgRequest->getText( 'returnto' ) ) ? $wgRequest->getText( 'returnto' ) : '';
@@ -225,7 +225,7 @@ class SpecialTwitterLogin extends SpecialPage {
 	private function _storeInTable( $user, $screen_name ){
 		$dbw = wfGetDB(DB_MASTER);
 		$dbw->insert( $this->_twUserTable,
-			array('user_id' => $user->getId(), 'twitter_id' => $screen_name),
+			array('tl_user_id' => $user->getId(), 'tl_twitter_id' => $screen_name),
 			__METHOD__,
 			array()
 		);
@@ -234,10 +234,11 @@ class SpecialTwitterLogin extends SpecialPage {
 	// user already exists... was it created from twitter or did it alread exist before?
 	private function _isCreatedFromTwitter( $user ){
 		$dbr = wfGetDB(DB_SLAVE);
-		$res = $dbr->select( $this->_twUserTable, 'twitter_id',		//'relation'
-			array( 'user_id' => $user->getId() ),
+		$res = $dbr->select( $this->_twUserTable, 'tl_twitter_id',		//'tl_relation'
+			array( 'tl_user_id' => $user->getId() ),
 			__METHOD__
 		);
+
 		if ( $row = $dbr->fetchObject( $res ) ) {
 			$dbr->freeResult( $res );
 			$user->saveToCache();
