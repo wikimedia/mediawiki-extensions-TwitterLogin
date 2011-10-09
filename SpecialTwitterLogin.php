@@ -53,18 +53,19 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	private function _default(){
 		global $wgOut, $wgUser, $wgScriptPath, $wgExtensionAssetsPath;
+
 		$wgOut->setPagetitle("Twitter Login");
 
-		/*
-		if( $wgUser->isLoggedIn() )
-			$wgOut->addWikiText( wfMsg( 'tietoaccount', $wgUser->getName() ) );
-		else 
-		*/
-		$wgOut->addWikiText( wfMsg( 'signuptwitter') );
+		if ( !$wgUser->isLoggedIn() ) {
+			$wgOut->addWikiText( wfMsg( 'signuptwitter') );
 
-		$wgOut->addHTML( '<a href="' . $wgScriptPath . '/index.php/Special:TwitterLogin/redirect">'
+			$wgOut->addHTML( '<a href="' . $wgScriptPath . '/index.php/Special:TwitterLogin/redirect">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' . 
 				'images/sign-in-with-twitter-d.png"/></a>' );
+		} else {
+			//$wgOut->addWikiText( wfMsg( 'tietoaccount', $wgUser->getName() ) );
+			$wgOut->addWikiText( wfMsg( 'alreadyloggedin' ) );
+		}
 		return true;
 	}
 
@@ -246,7 +247,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		}
 	}
 
-	private function _doTwitterOAuth($at, $ats){
+	private function _doTwitterOAuth( $at, $ats ){
 		/* Get user access tokens out of the session. */
 		return new TwitterOAuth(
 			$this->_consumerKey,
