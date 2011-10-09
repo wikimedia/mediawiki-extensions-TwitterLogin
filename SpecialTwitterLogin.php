@@ -57,14 +57,14 @@ class SpecialTwitterLogin extends SpecialPage {
 		$wgOut->setPagetitle("Twitter Login");
 
 		if ( !$wgUser->isLoggedIn() ) {
-			$wgOut->addWikiText( wfMsg( 'signuptwitter') );
+			$wgOut->addWikiText( wfMsg( 'twitterlogin-signup') );
 
 			$wgOut->addHTML( '<a href="' . $wgScriptPath . '/index.php/Special:TwitterLogin/redirect">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' . 
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
-			//$wgOut->addWikiText( wfMsg( 'tietoaccount', $wgUser->getName() ) );
-			$wgOut->addWikiText( wfMsg( 'alreadyloggedin' ) );
+			//$wgOut->addWikiText( wfMsg( 'twitterlogin-tietoaccount', $wgUser->getName() ) );
+			$wgOut->addWikiText( wfMsg( 'twitterlogin-alreadyloggedin' ) );
 		}
 		return true;
 	}
@@ -135,7 +135,7 @@ class SpecialTwitterLogin extends SpecialPage {
 			header('Location: '. $url);
 			break;
 			default:
-			$wgOut->addWikiText( wfMsg( 'couldnotconnect' ) );
+			$wgOut->addWikiText( wfMsg( 'twitterlogin-couldnotconnect' ) );
 			break;
 		}
 	}

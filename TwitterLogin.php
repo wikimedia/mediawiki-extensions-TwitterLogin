@@ -34,10 +34,11 @@ $wgAutoloadClasses['TwitterOAuth'] = dirname(__FILE__) . '/twitteroauth/twittero
 $wgAutoloadClasses['TwitterSigninUI'] = dirname(__FILE__) . '/TwitterLogin.body.php';
 
 $wgExtensionMessagesFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.i18n.php';
+$wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias.php';
+
 $wgSpecialPages['TwitterLogin'] = 'SpecialTwitterLogin';
 $wgSpecialPageGroups['TwitterLogin'] = 'login';
 
-$wgHooks['LanguageGetMagic'][] = 'wfTwitterLoginLanguageGetMagic';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'efSetupTwitterLoginSchema';
 
 $tsu = new TwitterSigninUI;
@@ -46,11 +47,6 @@ $wgHooks['BeforePageDisplay'][] = array( $tsu, 'efAddSigninButton' );
 $stl = new SpecialTwitterLogin;
 $wgHooks['UserLoadFromSession'][] = array($stl,'efTwitterAuth');
 $wgHooks['UserLogoutComplete'][] = array($stl,'efTwitterLogout');
-
-function wfTwitterLoginLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
-	$magicWords['twitterlogin'] = array( 0, 'twitterlogin' );
-	return true;
-}
 
 function efSetupTwitterLoginSchema() {
 	$updater->addExtensionUpdate( array( 'addTable', 'twitter_user',
