@@ -21,7 +21,7 @@ class TwitterSigninUI {
 		global $wgUser, $wgExtensionAssetsPath, $wgScriptPath;
 	
 		if ( !$wgUser->isLoggedIn() ) {
-			$link = Title::newFromText('Special:TwitterLogin/redirect')->getLinkUrl();
+			$link = SpecialPage::getTitleFor( 'TwitterLogin', 'redirect' )->getLinkUrl(); 
 			$out->addInlineScript('$j(document).ready(function(){
 				$j("#pt-anonlogin, #pt-login").after(\'<li id="pt-twittersignin">'
 				.'<a href="' . $link  . '">'

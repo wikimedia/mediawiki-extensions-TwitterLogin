@@ -35,6 +35,7 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	// default method being called by a specialpage
 	public function execute( $parameter ){
+		$this->setHeaders();
 		switch($parameter){
 			case 'redirect':
 				$this->_redirect();
