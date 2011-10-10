@@ -21,9 +21,10 @@ class TwitterSigninUI {
 		global $wgUser, $wgExtensionAssetsPath, $wgScriptPath;
 	
 		if ( !$wgUser->isLoggedIn() ) {
+			$link = Title::newFromText('Special:TwitterLogin/redirect')->getLinkUrl();
 			$out->addInlineScript('$j(document).ready(function(){
 				$j("#pt-anonlogin, #pt-login").after(\'<li id="pt-twittersignin">'
-				.'<a href="' . $wgScriptPath . '/index.php/Special:TwitterLogin/redirect">'
+				.'<a href="' . $link  . '">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/'
 				.'images/sign-in-with-twitter-d.png" width="120px"/></a></li>\');
 			})');
