@@ -20,7 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'TwitterLogin',
-	'version' => '0.01',
+	'version' => '0.02',
 	'author' => array( 'Dave Challis', '[http://www.mediawiki.org/wiki/User:Clausekwis David Raison]' ), 
 	'url' => 'http://www.mediawiki.org/wiki/Extension:TwitterLogin',
 	'descriptionmsg' => 'twitterlogin-desc'
