@@ -31,6 +31,7 @@ $wgGroupPermissions['twitter'] = $wgGroupPermissions['user'];
 
 $wgAutoloadClasses['SpecialTwitterLogin'] = dirname(__FILE__) . '/SpecialTwitterLogin.php';
 $wgAutoloadClasses['TwitterOAuth'] = dirname(__FILE__) . '/twitteroauth/twitteroauth.php';
+$wgAutoloadClasses['MwTwitterOAuth'] = dirname(__FILE__) . '/TwitterLogin.twitteroauth.php';
 $wgAutoloadClasses['TwitterSigninUI'] = dirname(__FILE__) . '/TwitterLogin.body.php';
 
 $wgExtensionMessagesFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.i18n.php';

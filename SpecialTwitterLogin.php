@@ -107,7 +107,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		global $wgRequest, $wgOut, $wgUser;
 
 		// Creating OAuth object
-		$connection = new TwitterOAuth( $this->_consumerKey, $this->_consumerSecret );
+		$connection = new MwTwitterOAuth( $this->_consumerKey, $this->_consumerSecret );
 
 		// set callback url
 		$oauthCallback = $this->getTitle( 'callback' )->getFullURL();
@@ -251,7 +251,7 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	private function _doTwitterOAuth( $at, $ats ){
 		/* Get user access tokens out of the session. */
-		return new TwitterOAuth(
+		return new MwTwitterOAuth(
 			$this->_consumerKey,
 			$this->_consumerSecret,
 			$at,
