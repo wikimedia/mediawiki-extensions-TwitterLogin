@@ -22,7 +22,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'TwitterLogin',
 	'version' => '0.02',
 	'author' => array( 'Dave Challis', '[http://www.mediawiki.org/wiki/User:Clausekwis David Raison]' ), 
-	'url' => 'http://www.mediawiki.org/wiki/Extension:TwitterLogin',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:TwitterLogin',
 	'descriptionmsg' => 'twitterlogin-desc'
 );
 
