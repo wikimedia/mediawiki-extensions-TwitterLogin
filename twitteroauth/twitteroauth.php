@@ -70,7 +70,7 @@ class TwitterOAuth {
   /**
    * Get a request_token from Twitter
    *
-   * @returns a key/value array containing oauth_token and oauth_token_secret
+   * @return a key/value array containing oauth_token and oauth_token_secret
    */
   function getRequestToken($oauth_callback = NULL) {
     $parameters = array();
@@ -86,7 +86,7 @@ class TwitterOAuth {
   /**
    * Get the authorize URL
    *
-   * @returns a string
+   * @return a string
    */
   function getAuthorizeURL($token, $sign_in_with_twitter = TRUE) {
     if (is_array($token)) {
@@ -103,7 +103,7 @@ class TwitterOAuth {
    * Exchange request token and secret for an access token and
    * secret, to sign API calls.
    *
-   * @returns array("oauth_token" => "the-access-token",
+   * @return array("oauth_token" => "the-access-token",
    *                "oauth_token_secret" => "the-access-secret",
    *                "user_id" => "9436992",
    *                "screen_name" => "abraham")
@@ -122,7 +122,7 @@ class TwitterOAuth {
   /**
    * One time exchange of username and password for access token and secret.
    *
-   * @returns array("oauth_token" => "the-access-token",
+   * @return array("oauth_token" => "the-access-token",
    *                "oauth_token_secret" => "the-access-secret",
    *                "user_id" => "9436992",
    *                "screen_name" => "abraham",
