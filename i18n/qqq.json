@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"David Raison"
+		]
+	},
+	"twitterlogin": "Link of the special page",
+	"twitterlogin-signup": "Explains users they can register and sign up to the wiki with their twitter account. Used on specialpage default.",
+	"twiterlogin-tietoaccount": "Message displayed on the default specialpage when a logged in user visits it. (NOT in use)",
+	"twitterlogin-desc": "Description of the extension, see setup file",
+	"twitterlogin-alreadyloggedin": "Message displayed on the default specialpage. tietoaccount replacement.",
+	"twitterlogin-couldnotconnect": "Tell the user the connection to twitter oauth server did not work."
+}

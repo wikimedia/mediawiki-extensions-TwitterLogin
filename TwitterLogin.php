@@ -36,6 +36,7 @@ $wgAutoloadClasses['TwitterSigninUI'] = dirname(__FILE__) . '/TwitterLogin.body.
 
 $wgExtensionMessagesFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.i18n.php';
 $wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias.php';
+$wgMessagesDirs['TwitterLogin'] = __DIR__ . '/i18n';
 
 $wgSpecialPages['TwitterLogin'] = 'SpecialTwitterLogin';
 $wgSpecialPageGroups['TwitterLogin'] = 'login';
