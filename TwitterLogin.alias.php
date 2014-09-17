@@ -2,7 +2,6 @@
 /**
  * @file TwitterLogin.alias.php
  * @ingroup TwitterLogin
-
  * @author David Raison
  */
 
