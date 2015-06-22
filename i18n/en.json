@@ -5,9 +5,9 @@
 		]
 	},
 	"twitterlogin": "Sign in using Twitter",
-	"twitterlogin-signup": "You can register to this wiki using your Twitter account",
-	"twiterlogin-tietoaccount": "You are currently logged into this wiki as $1.<br/>You may sign in with Twitter to tie your twitter account to your existing MediaWiki account.",
-	"twitterlogin-desc": "Register and log in to a MediaWiki using your Twitter account",
-	"twitterlogin-alreadyloggedin": "You're already logged in.",
+	"twitterlogin-signup": "You can register to this wiki using a Twitter account",
+	"twiterlogin-tietoaccount": "You are currently logged into this wiki as $1. You may sign in with Twitter to tie your twitter account to your existing MediaWiki account.",
+	"twitterlogin-desc": "Register and log in to a MediaWiki using a Twitter account",
+	"twitterlogin-alreadyloggedin": "You are already logged in.",
 	"twitterlogin-couldnotconnect": "Could not connect to Twitter. Refresh the page or try again later."
 }
