@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"twitterlogin": "Mit Twitter anmelden",
+	"twitterlogin-signup": "Du kannst dich auf diesem Wiki mit einem Twitter-Konto registrieren",
+	"twiterlogin-tietoaccount": "Du bist derzeit bei diesem Wiki als $1 angemeldet. Du kannst dich mit Twitter anmelden, um dein Twitter-Konto mit deinem vorhandenen MediaWiki-Benutzerkonto zu verbinden.",
+	"twitterlogin-desc": "Ermöglicht die Registrierung und Anmeldung bei MediaWiki mit einem Twitter-Konto",
+	"twitterlogin-alreadyloggedin": "Du bist bereits angemeldet.",
+	"twitterlogin-couldnotconnect": "Es konnte keine Verbindung mit Twitter hergestellt werden. Aktualisiere die Seite oder versuche es später erneut."
+}

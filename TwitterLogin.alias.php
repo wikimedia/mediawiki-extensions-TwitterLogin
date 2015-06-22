@@ -4,13 +4,11 @@
  * @ingroup TwitterLogin
  * @author David Raison
  */
+// @codingStandardsIgnoreFile
 
-$aliases = array();
+$specialPageAliases = array();
 
-/** English
- * @author David Raison
- */
-$aliases['en'] = array(
-        'TwitterLogin' => array('TwitterLogin')
+/** English (English) */
+$specialPageAliases['en'] = array(
+	'TwitterLogin' => array( 'TwitterLogin' ),
 );
-
