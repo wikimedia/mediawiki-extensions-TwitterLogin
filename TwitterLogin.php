@@ -39,7 +39,6 @@ $wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias
 $wgMessagesDirs['TwitterLogin'] = __DIR__ . '/i18n';
 
 $wgSpecialPages['TwitterLogin'] = 'SpecialTwitterLogin';
-$wgSpecialPageGroups['TwitterLogin'] = 'login';
 
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'efSetupTwitterLoginSchema';
 
