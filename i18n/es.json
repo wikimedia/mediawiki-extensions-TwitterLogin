@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"twitterlogin": "Inicia sesión con Twitter",
+	"twitterlogin-signup": "Puedes registratse en este wiki usando una cuenta de Twitter",
+	"twiterlogin-tietoaccount": "Has iniciado sesión en este wiki como $1. Puedes iniciar sesión con Twitter para atar tu cuenta de twitter a tu cuenta de MediaWiki.",
+	"twitterlogin-desc": "Registrarse e iniciar sesión en MediaWiki utilizando una cuenta de Twitter",
+	"twitterlogin-alreadyloggedin": "Ya has iniciado sesión.",
+	"twitterlogin-couldnotconnect": "No se pudo conectar a Twitter. Actualiza la página o inténtalo de nuevo más tarde."
+}

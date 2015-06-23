@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"twitterlogin": "Umelle mat Twitter",
+	"twitterlogin-signup": "Dir kënnt Iech op dëser Wiki mat engem Twitter-Benotzerkont umellen",
+	"twiterlogin-tietoaccount": "Duir sidd elo op dëser Wiki als $1 ageloggt. Dir kënnt Iech mat Twitter umellen fir Ären Twitter-Benotzerkont mat Ärem MediaWiki-Benotzerkont ze verbannen.",
+	"twitterlogin-desc": "Umellen an aloggen op eng MediaWiki mat engem Twitter-Benotzerkont",
+	"twitterlogin-alreadyloggedin": "Dir sidd schonn ageloggt.",
+	"twitterlogin-couldnotconnect": "Et konnt keng Verbindung mat Twitter gemaach ginn. Aktualiséiert d'Säit oder probéiert méi spéit nach eng Kéier."
+}

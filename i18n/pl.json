@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mbkgacek"
+		]
+	},
+	"twitterlogin": "Zaloguj się poprzez Twittera",
+	"twitterlogin-signup": "Możesz zarejestrować się na wiki używając konta Twitter.",
+	"twiterlogin-tietoaccount": "Jesteś już zalogowany jako $1. Możesz zalogować się na Twittera by powiązać swoje konto z istniejącym kontem MediaWiki.",
+	"twitterlogin-desc": "Zarejestruj się i zaloguj do MediaWiki poprzez konto z Twittera.",
+	"twitterlogin-alreadyloggedin": "Jesteś już zalogowany.",
+	"twitterlogin-couldnotconnect": "Nie udało połączyć się z serwerami Twittera. Odśwież stronę i spróbuj ponownie."
+}

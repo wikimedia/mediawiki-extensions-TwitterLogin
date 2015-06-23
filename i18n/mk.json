@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"twitterlogin": "Најава со Twitter",
+	"twitterlogin-signup": "Можете да се регистрирате на ова вики користејќи сметка на Twitter",
+	"twiterlogin-tietoaccount": "Најавени се на ова вики како $1. Можете да се најавите со Twitter за да ја сврзете таа сметка со постоечката сметка на МедијаВики.",
+	"twitterlogin-desc": "Регистрирајте се и најавете се на МедијаВики со сметка на Twitter",
+	"twitterlogin-alreadyloggedin": "Веќе сте најавени.",
+	"twitterlogin-couldnotconnect": "Не можам да ве поврзам со Twitter. Превчитајте ја страницата и обидете се повторно."
+}

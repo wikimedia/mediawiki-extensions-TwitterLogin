@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"twitterlogin": "使用Twitter账户登录",
+	"twitterlogin-signup": "您可以通过使用Twitter账户注册至此wiki",
+	"twiterlogin-tietoaccount": "您当前作为$1登录至此wiki。您可以通过Twitter登录以将您的Twitter账户绑定至您当前的MediaWiki账户。",
+	"twitterlogin-desc": "使用Twitter账户注册并登录至一个MediaWiki网站",
+	"twitterlogin-alreadyloggedin": "您已经登录。",
+	"twitterlogin-couldnotconnect": "不能连接至Twitter。请刷新页面或稍后重试。"
+}

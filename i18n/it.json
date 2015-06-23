@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexmar983"
+		]
+	},
+	"twitterlogin": "Accedi tramite Twitter",
+	"twitterlogin-signup": "È possibile registrarsi a questa wiki utilizzando un account Twitter",
+	"twiterlogin-tietoaccount": "Sei attualmente registrato su questa wiki come $1. Puoi accederere tramite Twitter per collegare il tuo account twitter al tuo attuale account MediaWiki.",
+	"twitterlogin-desc": "Registrati e accedi a una MediaWiki utilizzando un account Twitter",
+	"twitterlogin-couldnotconnect": "Impossibile connettersi a Twitter. Aggiornare la pagina o riprovare più tardi."
+}
