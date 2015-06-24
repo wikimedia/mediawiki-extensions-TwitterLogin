@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"twitterlogin": "Logga in med Twitter",
+	"twitterlogin-alreadyloggedin": "Du är redan inloggad.",
+	"twitterlogin-couldnotconnect": "Kunde inte ansluta till Twitter. Uppdatera sidan eller försök igen senare."
+}
