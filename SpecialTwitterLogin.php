@@ -267,4 +267,8 @@ class SpecialTwitterLogin extends SpecialPage {
 		session_destroy();
 		return true;
 	}
+
+	protected function getGroupName() {
+		return 'login';
+	}
 }
