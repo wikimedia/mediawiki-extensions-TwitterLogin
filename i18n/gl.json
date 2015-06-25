@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo"
+		]
+	},
+	"twitterlogin": "Acceder mediante Twitter",
+	"twitterlogin-signup": "Pode rexistrase nesta wiki empregando unha conta de Twitter",
+	"twiterlogin-tietoaccount": "Está rexistrado actualmente nesta wiki coma $1. Pode acceder con Twitter para ligar a súa conta de twitter coa súa conta existente de MediaWiki.",
+	"twitterlogin-desc": "Rexistrarse e acceder nunha MediaWiki empregando unha conta de Twitter",
+	"twitterlogin-alreadyloggedin": "Xa está identificado.",
+	"twitterlogin-couldnotconnect": "Non se puido conectar con Twitter. Recarge a páxina ou ténteo de novo máis tarde."
+}
