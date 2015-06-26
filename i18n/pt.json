@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"twitterlogin": "Iniciar sessão utilizando o Twitter",
+	"twitterlogin-signup": "Pode registar-se nesta wiki com uma conta do Twitter",
+	"twiterlogin-tietoaccount": "Está atualmente conectado nesta wiki como $1. Pode entrar com o Twitter para associar a sua conta no Twitter à sua conta no MediaWiki.",
+	"twitterlogin-desc": "Registar e iniciar sessão numa MediaWiki com uma conta do Twitter",
+	"twitterlogin-alreadyloggedin": "Já está autenticado.",
+	"twitterlogin-couldnotconnect": "Não foi possível conectar ao Twitter. Atualize a página e tente novamente mais tarde."
+}
