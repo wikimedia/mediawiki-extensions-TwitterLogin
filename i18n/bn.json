@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"twitterlogin-signup": "আপনি একটি টুইটার অ্যাকাউন্ট ব্যবহার করে এই উইকিতে নিবন্ধন করতে পারেন",
+	"twitterlogin-alreadyloggedin": "আপনি ইতিমধ্যে প্রবেশ করেছেন।",
+	"twitterlogin-couldnotconnect": "টুইটার সংযোগ করতে পারা যায় নি। পাতাটি পুনঃসতেজ করুন এবং পরে আবার চেষ্টা করুন।"
+}

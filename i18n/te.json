@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveen Illa"
+		]
+	},
+	"twitterlogin": "ట్విట్టరు వాడి ప్రవేశించండి",
+	"twitterlogin-signup": "ట్విట్టరు ఖాతాతో మీరు ఈ వికీలో నమోదుకావచ్చు",
+	"twitterlogin-alreadyloggedin": "మీరు ఇదివరకే ప్రవేశించివున్నారు.",
+	"twitterlogin-couldnotconnect": "ట్విట్టరుకు అనుసంధానం కాలేకపోతున్నాము. పేజీని తాజాపరచండి లేదా మళ్ళీ తరువాత ప్రయత్నించండి."
+}
