@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"twitterlogin": "Войти с помощью Twitter",
+	"twitterlogin-signup": "Вы можете зарегистрироваться в этом вики-проекте с помощью учётной записи в Twitter",
+	"twiterlogin-tietoaccount": "В настоящий момент вы вошли в этот вики-проект как $1. Вы можете войти в Twitter, чтобы привязать вашу учётную запись в Twitter к существующей учётной записи в MediaWiki.",
+	"twitterlogin-desc": "Регистрация и вход в MediaWiki с помощью учётной записи в Twitter",
+	"twitterlogin-alreadyloggedin": "Вы уже вошли.",
+	"twitterlogin-couldnotconnect": "Не удалось подключиться к Twitter. Обновите страницу или повторите попытку позже."
+}
