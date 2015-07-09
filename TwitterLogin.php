@@ -29,13 +29,13 @@ $wgExtensionCredits['specialpage'][] = array(
 // Create a twiter group
 $wgGroupPermissions['twitter'] = $wgGroupPermissions['user'];
 
-$wgAutoloadClasses['SpecialTwitterLogin'] = dirname(__FILE__) . '/SpecialTwitterLogin.php';
-$wgAutoloadClasses['TwitterOAuth'] = dirname(__FILE__) . '/twitteroauth/twitteroauth.php';
-$wgAutoloadClasses['MwTwitterOAuth'] = dirname(__FILE__) . '/TwitterLogin.twitteroauth.php';
-$wgAutoloadClasses['TwitterSigninUI'] = dirname(__FILE__) . '/TwitterLogin.body.php';
+$wgAutoloadClasses['SpecialTwitterLogin'] = __DIR__ . '/SpecialTwitterLogin.php';
+$wgAutoloadClasses['TwitterOAuth'] = __DIR__ . '/twitteroauth/twitteroauth.php';
+$wgAutoloadClasses['MwTwitterOAuth'] = __DIR__ . '/TwitterLogin.twitteroauth.php';
+$wgAutoloadClasses['TwitterSigninUI'] = __DIR__ . '/TwitterLogin.body.php';
 
 $wgMessagesDirs['TwitterLogin'] = __DIR__ . '/i18n';
-$wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias.php';
+$wgExtensionAliasFiles['TwitterLogin'] = __DIR__ .'/TwitterLogin.alias.php';
 
 $wgSpecialPages['TwitterLogin'] = 'SpecialTwitterLogin';
 
@@ -50,10 +50,10 @@ $wgHooks['UserLogoutComplete'][] = array($stl,'efTwitterLogout');
 
 function efSetupTwitterLoginSchema( $updater ) {
 	$updater->addExtensionUpdate( array( 'addTable', 'twitter_user',
-		dirname(__FILE__) . '/schema/twitter_user.sql', true ) );
+		__DIR__ . '/schema/twitter_user.sql', true ) );
 	$updater->addExtensionUpdate( array( 'modifyField', 'twitter_user','user_id',
-		dirname(__FILE__) . '/schema/twitter_user.patch.user_id.sql', true ) );
+		__DIR__ . '/schema/twitter_user.patch.user_id.sql', true ) );
 	$updater->addExtensionUpdate( array( 'modifyField', 'twitter_user','twitter_id',
-		dirname(__FILE__) . '/schema/twitter_user.patch.twitter_id.sql', true ) );
+		__DIR__ . '/schema/twitter_user.patch.twitter_id.sql', true ) );
 	return true;
 }
