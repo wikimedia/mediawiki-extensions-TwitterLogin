@@ -34,9 +34,8 @@ $wgAutoloadClasses['TwitterOAuth'] = dirname(__FILE__) . '/twitteroauth/twittero
 $wgAutoloadClasses['MwTwitterOAuth'] = dirname(__FILE__) . '/TwitterLogin.twitteroauth.php';
 $wgAutoloadClasses['TwitterSigninUI'] = dirname(__FILE__) . '/TwitterLogin.body.php';
 
-$wgExtensionMessagesFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.i18n.php';
-$wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias.php';
 $wgMessagesDirs['TwitterLogin'] = __DIR__ . '/i18n';
+$wgExtensionAliasFiles['TwitterLogin'] = dirname(__FILE__) .'/TwitterLogin.alias.php';
 
 $wgSpecialPages['TwitterLogin'] = 'SpecialTwitterLogin';
 
