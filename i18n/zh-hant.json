@@ -4,5 +4,10 @@
 			"Cwlin0416"
 		]
 	},
-	"twitterlogin": "使用 Twitter 登入"
+	"twitterlogin": "使用 Twitter 登入",
+	"twitterlogin-signup": "您可以使用 Twitter 帳號來註冊此 wiki",
+	"twiterlogin-tietoaccount": "您目前使用 $1 的身份登入此 wiki。 您需要登入 Twitter 以連結您的 Twitter 帳號到您現有的 MediaWiki 帳號。",
+	"twitterlogin-desc": "使用 Twitter 帳號註冊並登入至 MediaWiki",
+	"twitterlogin-alreadyloggedin": "您已登入。",
+	"twitterlogin-couldnotconnect": "無法連線至 Twitter，請重新整理頁面或稍後再試。"
 }
