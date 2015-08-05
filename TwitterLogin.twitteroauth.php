@@ -1,7 +1,7 @@
 <?php
 /**
  * TwitterLogin.twitteroauth.php
- * Written by David Raison, based on the guideline published by Dave Challis 
+ * Written by David Raison, based on the guideline published by Dave Challis
  * at http://blogs.ecs.soton.ac.uk/webteam/2010/04/13/254/
  * @license: LGPL (GNU Lesser General Public License) http://www.gnu.org/licenses/lgpl.html
  *
@@ -31,11 +31,11 @@ class MwTwitterOAuth extends TwitterOAuth {
 	 */
 	public function http( $url, $method, $postfields = NULL ) {
 		$this->http_info = array();
-		
+
 		// the parent class sets the 'Expect:' http header but does not set a value.. we thus omit it here.
-		$options = array( 
-			'postData' => $postfields, 
-			'sslVerifyHost' => $this->ssl_verifypeer, 
+		$options = array(
+			'postData' => $postfields,
+			'sslVerifyHost' => $this->ssl_verifypeer,
 			'timeout' => $this->timeout
 		);
 
