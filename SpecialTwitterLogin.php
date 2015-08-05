@@ -1,7 +1,7 @@
 <?php
 /**
  * SpecialTwitterLogin.php
- * Written by David Raison, based on the guideline published by Dave Challis 
+ * Written by David Raison, based on the guideline published by Dave Challis
  * at http://blogs.ecs.soton.ac.uk/webteam/2010/04/13/254/
  * @license: LGPL (GNU Lesser General Public License) http://www.gnu.org/licenses/lgpl.html
  *
@@ -23,7 +23,7 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	private $_consumerKey;
 	private $_consumerSecret;
-	private $_twUserTable = 'twitter_user';	
+	private $_twUserTable = 'twitter_user';
 
 	public function __construct(){
 		parent::__construct('TwitterLogin');
@@ -45,9 +45,9 @@ class SpecialTwitterLogin extends SpecialPage {
 			break;
 			default:
 				$this->_default();
-			break;			
+			break;
 		}
-		
+
 	}
 
 	private function _default(){
@@ -59,7 +59,7 @@ class SpecialTwitterLogin extends SpecialPage {
 			$wgOut->addWikiMsg( 'twitterlogin-signup' );
 
 			$wgOut->addHTML( '<a href="' . $this->getTitle( 'redirect' )->getFullURL() .'">'
-				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' . 
+				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' .
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
 			//$wgOut->addWikiText( wfMsg( 'twitterlogin-tietoaccount', $wgUser->getName() ) );
@@ -82,12 +82,12 @@ class SpecialTwitterLogin extends SpecialPage {
 		$access_token = $connection->getAccessToken($_REQUEST['oauth_verifier']);
 
 		/**
-		 * Save the access tokens. Normally these would be saved in a database for future use. 
+		 * Save the access tokens. Normally these would be saved in a database for future use.
 		 * Especially relevant if you'd want to read from or post to this user's timeline
 		 */
 		$_SESSION['access_token'] = $access_token;
 
-		// Remove no longer needed request tokens 
+		// Remove no longer needed request tokens
 		unset($_SESSION['oauth_token']);
 		unset($_SESSION['oauth_token_secret']);
 
@@ -157,7 +157,7 @@ class SpecialTwitterLogin extends SpecialPage {
 			session_start();
 
 		// test if access tokens are set in our session
-		if (empty($_SESSION['access_token']) 
+		if (empty($_SESSION['access_token'])
 			|| empty($_SESSION['access_token']['oauth_token'])
 			|| empty($_SESSION['access_token']['oauth_token_secret'])) {
 		        return false;
