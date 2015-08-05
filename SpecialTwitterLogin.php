@@ -27,7 +27,7 @@ class SpecialTwitterLogin extends SpecialPage {
 
 	public function __construct(){
 		parent::__construct('TwitterLogin');
-		global $wgConsumerKey, $wgConsumerSecret, $wgScriptPath;
+		global $wgConsumerKey, $wgConsumerSecret;
 
 		$this->_consumerKey = $wgConsumerKey;
 		$this->_consumerSecret = $wgConsumerSecret;
@@ -51,7 +51,7 @@ class SpecialTwitterLogin extends SpecialPage {
 	}
 
 	private function _default(){
-		global $wgOut, $wgUser, $wgScriptPath, $wgExtensionAssetsPath;
+		global $wgOut, $wgUser, $wgExtensionAssetsPath;
 
 		$wgOut->setPagetitle("Twitter Login");
 
@@ -104,7 +104,7 @@ class SpecialTwitterLogin extends SpecialPage {
 	}
 
 	private function _redirect(){
-		global $wgRequest, $wgOut, $wgUser;
+		global $wgRequest, $wgOut;
 
 		// Creating OAuth object
 		$connection = new MwTwitterOAuth( $this->_consumerKey, $this->_consumerSecret );
