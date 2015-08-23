@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"twitterlogin": "Connectez-vous en utilisant Twitter",
+	"twitterlogin-signup": "Vous pouvez vous inscrire sur ce wiki à l'aide d'un compte Twitter",
+	"twiterlogin-tietoaccount": "Vous êtes actuellement connecté sur ce wiki en tant que $1. Vous pouvez vous connecter avec Twitter pour lier votre compte twitter à votre compte MediaWiki existant.",
+	"twitterlogin-desc": "Inscription et connection à un MediaWiki à l'aide d'un compte Twitter",
+	"twitterlogin-alreadyloggedin": "Vous êtes déjà connecté.",
+	"twitterlogin-couldnotconnect": "Impossible de se connecter à Twitter. Actualisez la page ou réessayez plus tard."
+}
