@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"twitterlogin": "Увійти з допомогою Twitter",
+	"twitterlogin-signup": "Ви можете зареєструватися у цій вікі з допомогою облікового запису в Twitter",
+	"twiterlogin-tietoaccount": "Ви увійшли в цю вікі як $1. Ви можете увійти в Twitter, щоб зв'язати Вашу обліковку в Twitter з наявним обліковим записом MediaWiki.",
+	"twitterlogin-desc": "Зареєструватися й увійти в MediaWiki, використовуючи обліковий запис у Twitter",
+	"twitterlogin-alreadyloggedin": "Ви вже ввійшли в систему.",
+	"twitterlogin-couldnotconnect": "Не вдалося підключитися до Twitter. Оновіть сторінку або спробуйте пізніше."
+}
