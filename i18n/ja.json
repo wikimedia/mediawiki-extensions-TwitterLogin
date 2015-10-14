@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sujiniku"
+		]
+	},
+	"twitterlogin": "Twitter を使用してサインイン",
+	"twitterlogin-signup": "あなたは Twitter アカウントを使用して、このウィキに登録できます",
+	"twitterlogin-desc": "Twitter アカウントを使用して MediaWiki に登録およびログイン",
+	"twitterlogin-alreadyloggedin": "あなたは既にログインしています。",
+	"twitterlogin-couldnotconnect": "Twitter に接続できません。ページを再読込みするか、あとで接続してください。"
+}
