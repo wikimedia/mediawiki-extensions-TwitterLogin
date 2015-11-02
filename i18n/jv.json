@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jadinegara"
+			"Jadinegara",
+			"Meursault2004"
 		]
 	},
-	"twitterlogin-alreadyloggedin": "Kowe wis ngêlog mlêbu.",
-	"twitterlogin-couldnotconnect": "Ora bisa nyambung menyang Twitter. Rumbubalèkake kaca utawa cuba manèh mêngko."
+	"twitterlogin-alreadyloggedin": "Sampéyan wis ngelog mlebu.",
+	"twitterlogin-couldnotconnect": "Ora bisa nyambung menyang Twitter. Rumbubalèkna kaca utawa cuba manèh mengko."
 }
