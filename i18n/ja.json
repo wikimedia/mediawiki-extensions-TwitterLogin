@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
 	"twitterlogin": "Twitter を使用してサインイン",
 	"twitterlogin-signup": "あなたは Twitter アカウントを使用して、このウィキに登録できます",
+	"twiterlogin-tietoaccount": "現在、$1 としてこのウィキにログインしています。既存の MediaWiki アカウントに自分の Twitter アカウントを紐付けるには、Twitter にサインインしてください。",
 	"twitterlogin-desc": "Twitter アカウントを使用して MediaWiki に登録およびログイン",
 	"twitterlogin-alreadyloggedin": "あなたは既にログインしています。",
 	"twitterlogin-couldnotconnect": "Twitter に接続できません。ページを再読込みするか、あとで接続してください。"
