@@ -62,7 +62,6 @@ class SpecialTwitterLogin extends SpecialPage {
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' .
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
-			//$wgOut->addWikiText( wfMsg( 'twitterlogin-tietoaccount', $wgUser->getName() ) );
 			$wgOut->addWikiMsg( 'twitterlogin-alreadyloggedin' );
 		}
 		return true;
