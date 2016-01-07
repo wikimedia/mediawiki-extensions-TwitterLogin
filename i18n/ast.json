@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"twitterlogin": "Aniciar sesión usando Twitter",
+	"twitterlogin-signup": "Puedes rexistrate nesta wiki usando una cuenta de Twitter",
+	"twiterlogin-tietoaccount": "Aniciasti sesión nesta wiki como $1. Puedes aniciar sesión con Twitter p'arreyar la to cuenta de twitter a la to cuenta de MediaWiki esistente.",
+	"twitterlogin-desc": "Rexistrase y aniciar sesión en MediaWiki utilizando una cuenta de Twitter",
+	"twitterlogin-alreadyloggedin": "Yá aniciasti sesión.",
+	"twitterlogin-couldnotconnect": "Non pudo conectase con Twitter. Actualiza la páxina o inténtalo de nuevo más llueu."
+}
