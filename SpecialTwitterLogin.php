@@ -33,6 +33,10 @@ class SpecialTwitterLogin extends SpecialPage {
 		$this->_consumerSecret = $wgConsumerSecret;
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	// default method being called by a specialpage
 	public function execute( $parameter ){
 		$this->setHeaders();
