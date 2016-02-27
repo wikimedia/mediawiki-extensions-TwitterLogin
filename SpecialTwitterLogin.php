@@ -245,7 +245,6 @@ class SpecialTwitterLogin extends SpecialPage {
 
 		if ( $row = $dbr->fetchObject( $res ) ) {
 			$dbr->freeResult( $res );
-			$user->saveToCache();
 		} else {
 			$dbr->freeResult( $res );
 			return false;
