@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher"
+		]
+	},
+	"twitterlogin": "Пријава помоћу Twitter-а",
+	"twitterlogin-signup": "Можете се регистровати на овом викију помоћу налога на Twitter-у",
+	"twiterlogin-tietoaccount": "Пријављени сте као $1. Можете се пријавити помоћу Twitter-а да бисте повезали његов налог са постојећим налогом на MediaWiki-ју.",
+	"twitterlogin-desc": "Отворите налог и пријавите се на MediaWiki помоћу налога на Twitter-у.",
+	"twitterlogin-alreadyloggedin": "Већ сте пријављени.",
+	"twitterlogin-couldnotconnect": "Не могу да се повежем са Twitter-ом. Освежите страницу или покушајте касније."
+}
