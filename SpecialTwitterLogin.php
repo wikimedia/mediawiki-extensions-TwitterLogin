@@ -57,7 +57,7 @@ class SpecialTwitterLogin extends SpecialPage {
 	private function _default(){
 		global $wgOut, $wgUser, $wgExtensionAssetsPath;
 
-		$wgOut->setPagetitle("Twitter Login");
+		$wgOut->setPageTitle("Twitter Login");
 
 		if ( !$wgUser->isLoggedIn() ) {
 			$wgOut->addWikiMsg( 'twitterlogin-signup' );
