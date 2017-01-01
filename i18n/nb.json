@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"twitterlogin": "Logg inn med Twitter",
+	"twitterlogin-signup": "Du kan registrere deg på denne wikien med en Twitter-konto",
+	"twiterlogin-tietoaccount": "Du er allerede logget inn på denne wikien som $1. Du kan logge inn med Twitter for å binde sammen Twitter- og MediaWiki-kontoen din.",
+	"twitterlogin-desc": "Registrer deg og logg inn på MediaWiki med en Twitter-konto",
+	"twitterlogin-alreadyloggedin": "Du er allerede logget inn.",
+	"twitterlogin-couldnotconnect": "Kunne ikke koble til Twitter. Oppdater siden eller prøv igjen senere."
+}
