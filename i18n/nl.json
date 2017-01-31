@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"twitterlogin": "Log in met Twitter",
+	"twitterlogin-signup": "U kunt zich aanmelden voor deze wiki met behulp van een Twitter account",
+	"twitterlogin-alreadyloggedin": "U bent al aangemeld.",
+	"twitterlogin-couldnotconnect": "Kan geen verbinding maken met Twitter. Ververs de pagina of probeer het later opnieuw."
+}
