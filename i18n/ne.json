@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Suniltheblue"
+		]
+	},
+	"twitterlogin": "Twitter प्रयोग गरी साइन इन गर्नुहोस्",
+	"twitterlogin-signup": "तपाईंले Twitter खाताको प्रयोग गरेर यो विकिमा दर्ता हुन सक्नुहुन्छ",
+	"twiterlogin-tietoaccount": "तपाईं हाल $1 मा रूपमा यो विकिमा लग इन हुनुहुन्छ। तपाईंले आफ्नो Twitter खातालाई आफ्नो विद्यमान MediaWiki खातासँग जोड्नका लागि उक्त Twitter खाताको प्रयोग गरेर साइन इन गर्न सक्नुहुन्छ।",
+	"twitterlogin-desc": "Twitter खाताको प्रयोग गरेर MediaWiki मा दर्ता र लग इन गर्नुहोस्",
+	"twitterlogin-alreadyloggedin": "तपाईं पहिले नै लग इन हुनुहुन्छ।",
+	"twitterlogin-couldnotconnect": "Twitter मा जडान गर्न सकिएन। पृष्ठ पुनः ताजा गर्नुहोस् वा फेरि प्रयास गर्नुहोस्।"
+}
