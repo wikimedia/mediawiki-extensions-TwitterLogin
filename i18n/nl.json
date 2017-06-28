@@ -6,6 +6,7 @@
 	},
 	"twitterlogin": "Log in met Twitter",
 	"twitterlogin-signup": "U kunt zich aanmelden voor deze wiki met behulp van een Twitter account",
+	"twiterlogin-tietoaccount": "U bent momenteel op deze wiki aangemeld als $1. U kunt zich aanmelden met Twitter om uw twitter account aan uw bestaande MediaWiki account te koppelen.",
 	"twitterlogin-alreadyloggedin": "U bent al aangemeld.",
 	"twitterlogin-couldnotconnect": "Kan geen verbinding maken met Twitter. Ververs de pagina of probeer het later opnieuw."
 }
