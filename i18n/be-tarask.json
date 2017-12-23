@@ -6,5 +6,6 @@
 	},
 	"twitterlogin": "Увайсьці з дапамогай Twitter",
 	"twitterlogin-signup": "Вы можаце зарэгістравацца ў гэтай вікі з дапамогай рахунку Twitter",
-	"twiterlogin-tietoaccount": "Цяпер вы ўвайшлі ў гэтую вікі як $1. Вы можаце ўвайсьці праз Twitter, каб далучыць ваш Twitter-рахунак да вашага існага рахунку MediaWiki."
+	"twiterlogin-tietoaccount": "Цяпер вы ўвайшлі ў гэтую вікі як $1. Вы можаце ўвайсьці праз Twitter, каб далучыць ваш Twitter-рахунак да вашага існага рахунку MediaWiki.",
+	"twitterlogin-desc": "Рэгістрацыя і ўваход у MediaWiki з дапамогай рахунку Twitter"
 }
