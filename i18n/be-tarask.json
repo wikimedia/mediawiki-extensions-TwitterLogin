@@ -7,5 +7,7 @@
 	"twitterlogin": "Увайсьці з дапамогай Twitter",
 	"twitterlogin-signup": "Вы можаце зарэгістравацца ў гэтай вікі з дапамогай рахунку Twitter",
 	"twiterlogin-tietoaccount": "Цяпер вы ўвайшлі ў гэтую вікі як $1. Вы можаце ўвайсьці праз Twitter, каб далучыць ваш Twitter-рахунак да вашага існага рахунку MediaWiki.",
-	"twitterlogin-desc": "Рэгістрацыя і ўваход у MediaWiki з дапамогай рахунку Twitter"
+	"twitterlogin-desc": "Рэгістрацыя і ўваход у MediaWiki з дапамогай рахунку Twitter",
+	"twitterlogin-alreadyloggedin": "Вы ўжо ўвайшлі.",
+	"twitterlogin-couldnotconnect": "Не атрымалася злучыцца з Twitter. Абнавіце старонку ці паспрабуйце яшчэ раз пазьней."
 }
