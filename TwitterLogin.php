@@ -24,7 +24,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'Dave Challis', '[http://www.mediawiki.org/wiki/User:Clausekwis David Raison]' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:TwitterLogin',
 	'descriptionmsg' => 'twitterlogin-desc',
-	'license-name' => 'LGPL-3.0+'
+	'license-name' => 'LGPL-3.0-or-later'
 );
 
 // Create a twiter group
