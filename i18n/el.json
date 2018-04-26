@@ -6,5 +6,6 @@
 	},
 	"twitterlogin": "Σύνδεση χρησιμοποιώντας το Twitter",
 	"twitterlogin-signup": "Μπορείτε να εγγραφείτε σε αυτό το βίκι χρησιμοποιώντας ένα λογαριασμό Twitter",
+	"twitterlogin-desc": "Εγγραφή και σύνδεση στο MediaWiki χρησιμοποιώντας ένα λογαριασμό Twitter",
 	"twitterlogin-alreadyloggedin": "Έχετε συνδεθεί ήδη."
 }
