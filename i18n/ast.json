@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Enolp"
 		]
 	},
 	"twitterlogin": "Aniciar sesión usando Twitter",
-	"twitterlogin-signup": "Puedes rexistrate nesta wiki usando una cuenta de Twitter",
-	"twiterlogin-tietoaccount": "Aniciasti sesión nesta wiki como $1. Puedes aniciar sesión con Twitter p'arreyar la to cuenta de twitter a la to cuenta de MediaWiki esistente.",
-	"twitterlogin-desc": "Rexistrase y aniciar sesión en MediaWiki utilizando una cuenta de Twitter",
-	"twitterlogin-alreadyloggedin": "Yá aniciasti sesión.",
-	"twitterlogin-couldnotconnect": "Non pudo conectase con Twitter. Actualiza la páxina o inténtalo de nuevo más llueu."
+	"twitterlogin-signup": "Pues rexistrate nesta wiki usando una cuenta de Twitter",
+	"twiterlogin-tietoaccount": "Anguaño aniciesti sesión nesta wiki como $1. A lo meyor quedríes aniciar sesión en Twitter pa venceyar una cuenta esistente de MediaWiki con esta de Twitter.",
+	"twitterlogin-desc": "Rexistrase y aniciar sesión en MediaWiki usando una cuenta de Twitter",
+	"twitterlogin-alreadyloggedin": "Yá aniciesti sesión.",
+	"twitterlogin-couldnotconnect": "Nun pudo coneutase con Twitter. Refresca la páxina o volvi tentalo más sero."
 }
