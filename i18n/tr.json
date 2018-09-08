@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"By erdo can"
+		]
+	},
+	"twitterlogin": "Twitter ile oturum aç",
+	"twitterlogin-signup": "Twitter hesabınızı kullanarak bu vikiye kayıt olabilirsiniz",
+	"twiterlogin-tietoaccount": "Şu anda bu vikiye $1 olarak giriş yaptınız. Twitter hesabınızla, Twitter hesabınızı mevcut MediaWiki hesabınıza bağlamak için giriş yapabilirsiniz.",
+	"twitterlogin-desc": "Twitter hesabınızı kullanarak MediaWiki'ye üye olun ve giriş yapın",
+	"twitterlogin-alreadyloggedin": "Zaten giriş yaptınız.",
+	"twitterlogin-couldnotconnect": "Twitter'a bağlanılamadı. Sayfayı yenile veya daha sonra tekrar dene."
+}
