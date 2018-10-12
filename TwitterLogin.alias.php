@@ -4,7 +4,6 @@
  * @ingroup TwitterLogin
  * @author David Raison
  */
-// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
