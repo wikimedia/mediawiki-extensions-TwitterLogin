@@ -5,5 +5,7 @@
 		]
 	},
 	"twitterlogin": "Tràse ausanne Tuitter",
-	"twitterlogin-signup": "Jè possibbele ca te reggistre a sta uicchi ausanne 'nu cunde Tuitter"
+	"twitterlogin-signup": "Jè possibbele ca te reggistre a sta uicchi ausanne 'nu cunde Tuitter",
+	"twitterlogin-alreadyloggedin": "E' ggià trasute.",
+	"twitterlogin-couldnotconnect": "Non ge te puè collegà a Tuitter. Aggiorne 'a pàgene o pruève cchiù tarde."
 }
