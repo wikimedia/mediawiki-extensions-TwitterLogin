@@ -6,6 +6,8 @@
 	},
 	"twitterlogin": "Tràse ausanne Tuitter",
 	"twitterlogin-signup": "Jè possibbele ca te reggistre a sta uicchi ausanne 'nu cunde Tuitter",
+	"twiterlogin-tietoaccount": "Sus a sta uicchi ste reggistrate cumme $1. Puè trasè cu Tuitter pe collegà 'u cunde tune sus a Tuitter cu 'u cunde de MediaUicchi.",
+	"twitterlogin-desc": "Reggìstrate e tràse a 'na MediaUicchi ausanne 'u cunde Tuitter",
 	"twitterlogin-alreadyloggedin": "E' ggià trasute.",
 	"twitterlogin-couldnotconnect": "Non ge te puè collegà a Tuitter. Aggiorne 'a pàgene o pruève cchiù tarde."
 }
