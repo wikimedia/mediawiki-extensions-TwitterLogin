@@ -14,11 +14,6 @@
  *
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This is a MediaWiki extension, and must be run from within MediaWiki.' );
-}
-
-
 class SpecialTwitterLogin extends SpecialPage {
 
 	private $_consumerKey;
