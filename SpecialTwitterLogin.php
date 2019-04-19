@@ -194,19 +194,23 @@ class SpecialTwitterLogin extends SpecialPage {
 	 * Todo: if we are supposed to tie this account to an existing one, create it but don't use it
 	 * --> cf _isCreatedFromTwitter --> relation
 	 * Unfortunately there doesn't seem to be a way to disable or hide an account programmatically
+	 * @param User $user
+	 * @param string $name
+	 * @param string $screen_name
+	 * @return bool
 	 */
-	private function _createUser( $user, $name, $screen_name ){
+	private function _createUser( $user, $name, $screen_name ) {
 		global $wgAuth;
 
 		try {
 			wfDebug( __METHOD__ . ':: created user ' . $screen_name . ' from Twitter' );
 			$user->addToDatabase();
-			$user->setRealName($name);
+			$user->setRealName( $name );
 
 			if ( $wgAuth->allowPasswordChange() )
-				$user->setPassword(User::randomPassword());
+				$user->setPassword( PasswordFactory::generateRandomPasswordString( 32 ) );
 
-			$user->addGroup('twitter');
+			$user->addGroup( 'twitter' );
 			//$user->confirmEmail();
 			$user->setToken();
 
