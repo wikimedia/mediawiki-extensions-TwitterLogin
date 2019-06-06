@@ -57,7 +57,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		if ( !$wgUser->isLoggedIn() ) {
 			$wgOut->addWikiMsg( 'twitterlogin-signup' );
 
-			$wgOut->addHTML( '<a href="' . $this->getTitle( 'redirect' )->getFullURL() .'">'
+			$wgOut->addHTML( '<a href="' . $this->getPageTitle( 'redirect' )->getFullURL() .'">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' .
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
@@ -108,7 +108,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		$connection = new MwTwitterOAuth( $this->_consumerKey, $this->_consumerSecret );
 
 		// set callback url
-		$oauthCallback = $this->getTitle( 'callback' )->getFullURL();
+		$oauthCallback = $this->getPageTitle( 'callback' )->getFullURL();
 
 		// Getting temporary credentials
 		$request_token = $connection->getRequestToken( $oauthCallback );
