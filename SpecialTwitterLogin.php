@@ -50,18 +50,19 @@ class SpecialTwitterLogin extends SpecialPage {
 	}
 
 	private function _default(){
-		global $wgOut, $wgUser, $wgExtensionAssetsPath;
+		global $wgExtensionAssetsPath;
 
-		$wgOut->setPageTitle("Twitter Login");
+		$out = $this->getOutput();
+		$out->setPageTitle("Twitter Login");
 
-		if ( !$wgUser->isLoggedIn() ) {
-			$wgOut->addWikiMsg( 'twitterlogin-signup' );
+		if ( !$this->getUser()->isLoggedIn() ) {
+			$out->addWikiMsg( 'twitterlogin-signup' );
 
-			$wgOut->addHTML( '<a href="' . $this->getPageTitle( 'redirect' )->getFullURL() .'">'
+			$out->addHTML( '<a href="' . $this->getPageTitle( 'redirect' )->getFullURL() .'">'
 				.'<img src="' . $wgExtensionAssetsPath . '/TwitterLogin/' .
 				'images/sign-in-with-twitter-d.png"/></a>' );
 		} else {
-			$wgOut->addWikiMsg( 'twitterlogin-alreadyloggedin' );
+			$out->addWikiMsg( 'twitterlogin-alreadyloggedin' );
 		}
 		return true;
 	}

@@ -18,9 +18,9 @@ class TwitterSigninUI {
 	 * Add a sign in with Twitter button but only when a user is not logged in
 	 */
 	public function efAddSigninButton( &$out, &$skin ) {
-		global $wgUser, $wgExtensionAssetsPath;
+		global $wgExtensionAssetsPath;
 
-		if ( !$wgUser->isLoggedIn() ) {
+		if ( !$out->getUser()->isLoggedIn() ) {
 			$link = SpecialPage::getTitleFor( 'TwitterLogin', 'redirect' )->getLinkUrl();
 			$out->addInlineScript('$j(document).ready(function(){
 				$j("#pt-anonlogin, #pt-login").after(\'<li id="pt-twittersignin">'
