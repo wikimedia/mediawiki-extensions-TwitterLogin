@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil"
+			"Lokal Profil",
+			"Sabelöga"
 		]
 	},
 	"twitterlogin": "Logga in med Twitter",
+	"twitterlogin-signup": "Du kan registrera dig på wikin med ett Twitter-konto",
+	"twiterlogin-tietoaccount": "Du är för närvarande inloggad på den här wikin som $1. Du kan logga in med Twitter för att koppla ditt Twitter-konto med ditt befintliga MediaWiki-konto.",
+	"twitterlogin-desc": "Registrera och logga in på MediaWiki med ett Twitter-konto",
 	"twitterlogin-alreadyloggedin": "Du är redan inloggad.",
 	"twitterlogin-couldnotconnect": "Kunde inte ansluta till Twitter. Uppdatera sidan eller försök igen senare."
 }
