@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Pyscowicz"
 		]
 	},
 	"twitterlogin": "Kirjaudu sisään käyttämällä Twitteriä",
 	"twitterlogin-signup": "Voit rekisteröidy tähän wikin käyttämällä Twitter-tiliä",
+	"twiterlogin-tietoaccount": "Olet kirjautunut tähän wikiin käyttäjänä $1. Voit kirjautua sisään käyttämällä Twitteriä yhdistääksesi Twitter-tunnuksesi nykyiseen MediaWiki-tunnukseesi.",
 	"twitterlogin-desc": "Rekisteröidy ja kirjaudu MediaWikiin käyttämällä Twitter-tiliä",
 	"twitterlogin-alreadyloggedin": "Olet jo kirjautuneena sisään.",
 	"twitterlogin-couldnotconnect": "Ei voitu yhdistää Twitteriin. Päivitä sivu tai yritä myöhemmin uudelleen."
