@@ -55,7 +55,7 @@ class SpecialTwitterLogin extends SpecialPage {
 		$out = $this->getOutput();
 		$out->setPageTitle("Twitter Login");
 
-		if ( !$this->getUser()->isLoggedIn() ) {
+		if ( !$this->getUser()->isRegistered() ) {
 			$out->addWikiMsg( 'twitterlogin-signup' );
 
 			$out->addHTML( '<a href="' . $this->getPageTitle( 'redirect' )->getFullURL() .'">'
@@ -119,7 +119,7 @@ class SpecialTwitterLogin extends SpecialPage {
 
 		// tie to existing account
 		/*
-		if( $wgUser->isLoggedIn() ) {
+		if( $wgUser->isRegistered() ) {
 			$_SESSION['wiki_username'] = $wgUser->getName();
 			$_SESSION['wiki_token'] = $wgUser->getToken();
 		}
